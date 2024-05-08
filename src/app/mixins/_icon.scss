@@ -1,0 +1,9 @@
+@import "../variables";
+
+@mixin icon($size, $name) {
+  display: inline-block;
+  width: $size;
+  height: $size;
+  font-size: $size;
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+.root {
+  height: 100%;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+
+  .content {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
